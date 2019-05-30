@@ -124,7 +124,7 @@ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"",wi
   r=("media$thumbnail"in x[q]&&d.thumbnailSize!==false)?x[q].media$thumbnail.url.replace(/\/s[0-9]+(\-c)?/, "/s"+d.thumbnailSize+"-c"):
 
 
- (("content"in x[q]&&d.content.$t>0)?"()":d.noImage);
+ (("content"in x[q]&&x[q].content.$t>0)?"()":d.noImage);
 
 
 
